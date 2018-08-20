@@ -50,7 +50,7 @@ defmodule Cldr.Mixfile do
       {:dialyxir, "~> 0.5", only: :dev, runtime: false},
       # {:dialyxir, git: "https://github.com/jeremyjh/dialyxir", runtime: false},
       {:phoenix, "~> 1.3", optional: true},
-      {:plug, "~> 1.4", optional: true},
+      {:plug, "~> 1.3", optional: true},
       {:sweet_xml, "~> 0.6", optional: true}
     ]
   end
